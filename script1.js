@@ -3,9 +3,7 @@ const courses = [
     { id: 2, name: 'Cooking Fish', price: 800, image: 'images/course2.jpg' },
     { id: 3, name: 'Grilled food', price: 300, image: 'images/course3.jpg' },
     { id: 4, name: 'Pastries', price: 1500, image: 'images/course4.jpg' },
-    { id: 5, name: 'Course 5', price: 2000, image: 'images/course5.jpg' },
-    { id: 6, name: 'Course 6', price: 1000, image: 'images/course6.jpg' }
-];
+  ];
 
 // Initialize the cart (using localStorage)
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
